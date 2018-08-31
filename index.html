@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html manifest="creal.appcache" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Randall Cab White</title>
+    <meta name="description" content="Randy White Homepage" />
+    <meta name="keywords" content="Sim,Crea,Nu,Stuff,Good,Science,Fun,Explore,Adventure" />
+    <meta name="author" content="Randall Cab White" />
+    <meta name="robots" content="noodp,noydir" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="Content-Language" content="English" />
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    
+    <style> 
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.space_break {
+	
+	padding: 30px;
+	
+}
+	.space_break_small {
+	
+	padding: 15px;
+	
+}
+
+.userAreaHeader
+{
+	text-align: right; 
+	
+}
+	
+		body 
+		{
+				
+			  background-color: #EBEBEB;
+
+			  color: #000;
+			  margin: 0;
+			  border: 2px solid #CCC;
+			  padding: 0;
+
+		
+		
+		background-repeat: no-repeat;
+		background-attachment:fixed;
+		background-position:center; 
+		
+		 
+ margin-bottom: 60px; /* Margin bottom by footer height */
+			
+			
+		}
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.article {
+    text-align: left;
+			  padding-bottom: 100px;
+			  padding-top: 50px;
+<!--
+			  height: 500px;
+-->
+}
+
+.aside {
+    text-align: left;
+<!--
+    display:none;
+-->
+}
+
+.section {
+    text-align: left;
+    display:none;
+}
+
+
+		footer 
+			{	
+				
+
+				
+				  
+			  background-color: #F2F2F4;
+			  color: #000;
+			  text-align: left;
+			  margin: 0;
+			  border: 0;
+<!--
+			  padding: 100px;
+-->
+			  width:100%;
+			  /*width: 100%;*/
+			  /*height: 100%;*/
+<!--
+			 bottom:auto;
+-->
+			 
+			   position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+<!--
+  background-color: #f5f5f5;
+-->
+			
+			}
+		
+		header 
+			{	
+				top:0px;				
+				background: #0C5AF8; /* For browsers that do not support gradients */
+				background: -webkit-linear-gradient(#0C5AF8, #4975E0); /* For Safari 5.1 to 6.0 */
+				background: -o-linear-gradient(#0C5AF8, #4975E0); /* For Opera 11.1 to 12.0 */
+				background: -moz-linear-gradient(#0C5AF8, #4975E0); /* For Firefox 3.6 to 15 */
+				background: linear-gradient(#0C5AF8, #4975E0); /* Standard syntax */
+				margin: 0px;
+				padding-bottom: 10px;
+				padding-top: 5px;
+				padding-left: 5px;
+				padding-right: 5px;
+				border-style: outset;
+				border-color: #C058C9;
+				border-width: 1.5px;
+				
+				
+				
+			}
+.nav {background:#eee;
+<!--
+		display:none;
+-->
+	}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+.nav ul a {
+    text-decoration: none;
+}
+
+    .img-circle {
+        border-radius: 50%;
+        height: 55px;
+        width: 55px;
+        	position: relative;
+    top: 20px;
+	 
+    }
+
+
+
+
+	
+	.regularDisplay
+	{
+			font-family: ubuntu;
+			text-rendering: optimizelegibility;
+			font-size: 1.4em;
+			/*color: #B49AB9;*/
+			font-weight: bold !important;
+			color:#FFFFFF;
+			
+			
+			
+	}
+	.logo
+	{
+			font-family: ubuntu;
+			text-rendering: optimizelegibility;
+			font-size: 1.4em;
+			/*color: #B49AB9;*/
+			font-weight: bold !important;
+			color:#FFFFFF;
+			text-shadow: 2px 2px #0C5AF8;
+			
+			
+	}
+			#rightSpace 
+			{
+				float: right;
+			}
+			
+		#leftSpace 
+			{
+				float: left;
+			}
+			
+
+			
+		#footerContainer 
+			{
+				float: right;
+			}
+			
+				
+
+    
+	.fbBold 
+			{
+				
+				font-family: 'Freight Sans Bold', helvetica, arial, sans-serif;
+				font-weight: bold !important;
+				font-size: 5em;
+				text-rendering: optimizelegibility;
+			}
+
+		h1
+		{
+					font-family: 'Freight Sans Bold', helvetica, arial, sans-serif;
+					text-rendering: optimizelegibility;
+					color:#000000;
+					
+					
+		}
+
+<!--
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+				li {
+					display: inline;
+				}
+-->
+<!--
+				
+			table.fixed { table-layout:fixed; }
+	table.fixed td { overflow: hidden; }
+-->
+
+	.centerColor 
+			{
+				
+				
+				background-color: #cccccc;
+				border-radius: 25px;
+				padding:8px;	
+	
+			}
+
+
+	.increaseImageWidth
+	{
+		position: relative;
+    top: 12px;
+		width:28px;
+		height:28px;
+		padding:8px;
+<!--
+		margin-top: 130px;
+-->
+	}
+	.logoImageMoveDown
+	{
+		position: relative;
+    top: 6px;
+		
+<!--
+		margin-top: 130px;
+-->
+	}
+
+	.increaseImageWidth:hover { 
+							background-color: #4975E0;
+							}
+
+	.spaceFooter { 
+<!--
+				padding-top: 30px;
+-->
+				}
+	
+	.tdHeaderSpace
+	{
+		margin: 2px;
+		padding:8px;	
+		border: 0;
+		opacity: .9;
+
+	}
+
+textarea {
+  overflow: auto;
+	resize: none;
+	border: 3px solid #cccccc;
+	padding: 5px;
+	border-radius:4%;
+}
+@media all and (min-width: 768px) {
+    .nav {text-align:left;-webkit-flex: .5 auto;flex:.5 auto;-webkit-order:1;order:1;}
+    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    .aside {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:3;order:3;}
+    footer {-webkit-order:4;order:4;}
+}
+
+#svgMain {margin-left:auto; margin-right:auto; display:block;}
+
+.scrollText {
+ height: 20px;	
+ overflow: hidden;
+ position: relative;
+}
+.scrollText h3 {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 20px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ -moz-animation: scrollText 15s linear infinite;
+ -webkit-animation: scrollText 15s linear infinite;
+ animation: scrollText 15s linear infinite;
+}
+.scrollText span {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 25px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ -moz-animation: scrollText 15s linear infinite;
+ -webkit-animation: scrollText 15s linear infinite;
+ animation: scrollText 15s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scrollText {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes scrollText {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes scrollText {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%); 
+ }
+}
+
+
+.rotateSpecial {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    margin:-60px 0 0 -60px;
+    -webkit-animation:spin 2s linear infinite;
+    -moz-animation:spin 2s linear infinite;
+    animation:spin 2s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+<!--
+#mapView {
+      position: absolute;
+      width: 100%;
+      height: 70%;
+    }
+-->
+
+
+</style> 
+
+
+<script src="vue.js"></script>
+<script src="sigma.min.js"></script>
+<script src="popper.min.js"></script>
+<script src="jquery-3.2.1.slim.min.js"></script>
+<script src="bootstrap.min.js"></script>
+<script src="plugins/sigma.parsers.json.min.js"></script>
+<script src="plugins/sigma.layout.forceAtlas2.min.js"></script>
+<script src="plugins/sigma.plugins.dragNodes.min.js"></script>
+<script src="plugins/sigma.renderers.edgeLabels.min.js"></script>
+<script src="plugins/sigma.renderers.edgeDots.min.js"></script>
+<script src="aux.js"></script>
+
+
+
+
+
+</head>
+
+
+
+  <body>
+    <header>
+		
+		 
+
+        <ul>
+          <li><a onclick="showOrHide('navBarContents');" v-on:keyup.left="showOrHide('navBarContents');" class="pr-2" href='#'><img alt="-" src="open-menu-symbolic.svg" width="30px" height="20px" ></a></li>
+          <li><span class="logo pr-2">Randall Cab White</span> </li>
+          <li class="pr-2"></li>
+          <li class="pr-2" id="username">
+
+          <li></li>
+          <li></li>
+        </ul>
+
+
+<script>
+
+</script>
+
+
+</header>
+ <script>
+
+
+
+</script> 
+
+    <div class="flex-container">
+		
+
+
+		
+
+
+
+
+<script>
+
+
+
+</script>
+
+
+<img class="rotateSpecial" src="process-working-symbolic.svg" width="30px" height="20px" id="loadingAnim" hidden>
+<article class="article" id="middleArea">
+<div  class="mx-auto" style="background-color: transparent; width: 100%;">
+
+ 
+
+
+
+</div>
+      </article>
+      <aside class="aside" id="rightSideBar">
+
+		   
+		   </aside>
+      
+      <script>
+      
+
+      </script>
+      
+      <footer > 
+
+      </footer>
+
+
+    </div>
+
+
+  </body>
+</html>
+<script>
+
+
+
+
+</script>
+
+
